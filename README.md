@@ -72,18 +72,18 @@ pip install pandas numpy scikit-learn matplotlib seaborn nltk joblib
 
 ## How to Use
 
-1. Clone the repository:
+1. Clone the repository.
 
 ```bash
 git clone https://github.com/DaltonPayne/Movie-Data-Analysis-and-Prediction
 cd movie-data-analysis-and-prediction
 ```
 
-2. Ensure the dataset `16k_Movies.csv` is placed in the project folder.
+2. Unzip the dataset and make sure `16k_Movies.csv` is placed in the same directory
 
-3. Train the models by running the notebook called models.ipynb:
+3. Train the models by running the notebook called models.ipynb.
 
-4. Predict ratings and genres for your movies or ideas:
+4. Predict ratings and genres for your movies or ideas.
 
 ```python
 
