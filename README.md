@@ -83,20 +83,30 @@ cd movie-data-analysis-and-prediction
 
 3. Train the models by running the notebook called models.ipynb:
 
-4. To predict ratings and genres for custom movies:
+4. Predict ratings and genres for your movies or ideas:
 
 ```python
-from movie_analysis import run_custom_inference
 
-title = "Your Movie Title"
-description = "Your movie description"
-rating, genres = run_custom_inference(title, description)
-print(f"Predicted Rating: {rating}")
-print(f"Predicted Genres: {genres}")
+Real Movie Test:
+Predicted Rating for 'The Godfather': 7.563060124019376
+Predicted Genres for 'The Godfather': ['Drama']
+Predicted Rating for 'Titanic': 7.646985307405162
+Predicted Genres for 'Titanic': ['Drama', 'Romance']
+
+
+Fake Movie Test:
+Predicted Rating for 'Shadow Man': 6.340331114215586
+Predicted Genres for 'Shadow Man': ['Thriller', 'Horror', 'Mystery']
+Predicted Rating for 'Galactic Wars': 6.887879120924816
+Predicted Genres for 'Galactic Wars': ['Action', 'Sci-Fi']
+Predicted Rating for 'The Lost City of Andoria': 6.198276867857527
+Predicted Genres for 'The Lost City of Andoria': ['Thriller', 'Adventure', 'Drama']
+Predicted Rating for 'Cyber Revolution': 5.5109351360257195
+Predicted Genres for 'Cyber Revolution': ['Sci-Fi', 'Drama', 'Action']
 ```
 
 ## Conclusion
 
-This project combines movie data analysis and machine learning to provide insights into the movie industry and predict ratings and genres based on titles and descriptions. The models demonstrate strong performance on real and fictional examples and can be further refined or expanded for more features.
+This project combines movie data analysis and machine learning to provide insights into the movie industry and predict ratings and genres based on titles and descriptions.
 
 Feel free to contribute or expand upon this project by adding more features or datasets!
