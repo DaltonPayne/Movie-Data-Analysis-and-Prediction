@@ -3,7 +3,7 @@
 
 This project focuses on the analysis of a dataset containing 16,000 movies, as well as the development of predictive models for movie ratings and genres based on movie titles and descriptions. The project incorporates data cleaning, preprocessing, exploration, visualization, and machine learning models using Python libraries such as `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`, and `nltk`.
 
-![Movies got worse over time.](./fig.1)
+![Movies got worse over time.](fig.png)
 
 ## Features
 
@@ -76,7 +76,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn nltk joblib
 
 ```bash
 git clone https://github.com/DaltonPayne/Movie-Data-Analysis-and-Prediction
-cd movie-data-analysis
+cd movie-data-analysis-and-prediction
 ```
 
 2. Ensure the dataset `16k_Movies.csv` is placed in the project folder.
